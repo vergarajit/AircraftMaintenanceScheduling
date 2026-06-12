@@ -1,0 +1,76 @@
+2026-06-12 13:47:09,171 - INFO - Running: python3 main.py --mode generate --size MEDIUM --n 2 --real
+2026-06-12 13:47:11,700 - INFO - 
+2026-06-12 13:47:11,701 - INFO - Running: python3 main.py --mode solve --size MEDIUM --n 2 --solver HEURISTIC --type DETERMINISTIC --real
+2026-06-12 13:47:13,082 - INFO - Task task_524_nr infeasible: duration=40, window=[1386,1420], size=35
+Task task_126 infeasible: duration=188, window=[172,259], size=88
+Task task_297_nr infeasible: duration=54, window=[1386,1420], size=35
+Task task_395 infeasible: duration=58, window=[1296,1347], size=52
+Task task_320_nr infeasible: duration=117, window=[1386,1420], size=35
+Task task_426 infeasible: duration=71, window=[1296,1347], size=52
+Task task_75_nr infeasible: duration=79, window=[1386,1420], size=35
+Task task_385 infeasible: duration=80, window=[1296,1347], size=52
+Task task_591 infeasible: duration=87, window=[1296,1347], size=52
+Task task_322_nr infeasible: duration=179, window=[1386,1420], size=35
+Task task_590 infeasible: duration=91, window=[86,172], size=87
+Task task_485 infeasible: duration=102, window=[1296,1347], size=52
+Task task_587 infeasible: duration=104, window=[259,345], size=87
+Task task_151 infeasible: duration=104, window=[172,259], size=88
+Task task_518 infeasible: duration=104, window=[1296,1347], size=52
+Task task_586 infeasible: duration=109, window=[86,172], size=87
+Task task_150 infeasible: duration=111, window=[172,259], size=88
+Task task_585 infeasible: duration=111, window=[86,172], size=87
+Task task_324_nr infeasible: duration=222, window=[1386,1420], size=35
+Task task_584 infeasible: duration=116, window=[86,172], size=87
+Task task_583 infeasible: duration=119, window=[259,345], size=87
+Task task_567_nr infeasible: duration=122, window=[1386,1420], size=35
+Task task_521_nr infeasible: duration=151, window=[1386,1420], size=35
+Task task_579 infeasible: duration=164, window=[259,345], size=87
+Task task_407 infeasible: duration=169, window=[1296,1347], size=52
+Task task_578 infeasible: duration=170, window=[259,345], size=87
+Task task_577 infeasible: duration=180, window=[1555,1728], size=174
+Task task_576 infeasible: duration=204, window=[259,345], size=87
+Task task_424 infeasible: duration=219, window=[1296,1347], size=52
+Task task_574 infeasible: duration=236, window=[259,345], size=87
+Task task_573 infeasible: duration=248, window=[259,345], size=87
+Task task_572 infeasible: duration=304, window=[259,345], size=87
+Task task_571 infeasible: duration=317, window=[1296,1347], size=52
+Task task_570 infeasible: duration=346, window=[259,345], size=87
+Task task_568 infeasible: duration=456, window=[259,345], size=87
+Task task_392 infeasible: duration=534, window=[1296,1347], size=52
+Task task_466 infeasible: duration=283, window=[1296,1468], size=173
+Total tasks: 796
+Tasks in groups: 796
+Tasks not in groups: 0
+Resolved real_instance_0.json
+Task task_757_nr infeasible: duration=52, window=[1386,1420], size=35
+Task task_147 infeasible: duration=144, window=[172,259], size=88
+Task task_848_nr infeasible: duration=42, window=[1386,1420], size=35
+Task task_421_nr infeasible: duration=129, window=[1386,1420], size=35
+Task task_847_nr infeasible: duration=65, window=[1386,1420], size=35
+Task task_431_nr infeasible: duration=139, window=[1386,1420], size=35
+Task task_322_nr infeasible: duration=72, window=[1386,1420], size=35
+Task task_425_nr infeasible: duration=157, window=[1386,1420], size=35
+Task task_745_nr infeasible: duration=40, window=[1386,1420], size=35
+Task task_747_nr infeasible: duration=199, window=[1386,1420], size=35
+Task task_558 infeasible: duration=143, window=[1209,1296], size=88
+Task task_560 infeasible: duration=236, window=[1209,1296], size=88
+Task task_412_nr infeasible: duration=742, window=[518,1209], size=692
+Total tasks: 1001
+Tasks in groups: 1001
+Tasks not in groups: 0
+Resolved real_instance_1.json
+
+Resultados de MEDIUM guardados en: Results/HEURISTIC/medium/Statistics_MEDIUM_real.xlsx
+
+2026-06-12 13:47:13,082 - INFO - Running: python3 analysis.py --solver HEURISTIC --sizes MEDIUM --n 2 --plot_skills --plot_schedule --real
+2026-06-12 13:47:15,136 - INFO - Analizando solver HEURISTIC con configuración {}
+/Users/vergarajit/Documents/ProjectConstanza/InstanceGeneration/instances/MEDIUM/REAL
+real_instance_0.json
+Schedule plot saved: analysis_results/plots/HEURISTIC/medium/schedule/real_instance_0.html
+real_instance_1.json
+Schedule plot saved: analysis_results/plots/HEURISTIC/medium/schedule/real_instance_1.html
+Análisis de medium guardado en analysis_results/medium_HEURISTIC_metrics.xlsx
+
+2026-06-12 13:47:15,136 - INFO - Running: python3 aggregated_metrics.py --solver HEURISTIC --sizes MEDIUM --n 2
+2026-06-12 13:47:16,269 - INFO - 
+2026-06-12 13:47:16,269 - INFO - Pipeline completed successfully.
